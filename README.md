@@ -101,4 +101,6 @@ And join the Nx community:
 - [Our Youtube channel](https://www.youtube.com/@nxdevtools)
 - [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
 
+<!-- GENERATE LIB -->
+
 npx nx generate @nx/angular:library --name=shared --directory=libs/shared --publishable=true --routing=true --addTailwind=true --flat=true --importPath=@my-ws/shared --skipModule=true --style=scss
