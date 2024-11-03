@@ -105,4 +105,4 @@ And join the Nx community:
 
 npx nx generate @nx/angular:library --name=shared --directory=libs/shared --publishable=true --routing=true --addTailwind=true --flat=true --importPath=@my-ws/shared --skipModule=true --style=scss
 
-npx nx generate @nx/angular:library --name=utilities --directory=libs/utilities --publishable=true --addTailwind=true --flat=true --importPath=@my-ws/utilities --skipTests=true --style=scss --no-interactive --standalone=true --viewEncapsulation=None
+npx nx generate @nx/angular:library --name=utilities --directory=libs/utilities --publishable=true --addTailwind=true --flat=true --importPath=@my-ws/utilities --skipTests=true --style=scss

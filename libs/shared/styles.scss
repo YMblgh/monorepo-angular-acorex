@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+// tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// AcoreX
+@import '@acorex/styles/icons/fontawesome/fontawesome.scss';
+@import '@acorex/styles/icons/index.scss';
+@import '@acorex/styles/themes/default.scss';
+@import '@acorex/styles/index.scss';
