@@ -1,8 +1,9 @@
 import { Route } from '@angular/router';
+import { SharedComponent } from '@shared';
 
 export const appRoutes: Route[] = [
-  // {
-  //   path: '',
-  //   loadChildren: () => import('@shared').then((r) => r.sharedRoutes),
-  // },
+  {
+    path: '',
+    component: SharedComponent,
+  },
 ];
